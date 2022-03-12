@@ -1,7 +1,11 @@
-﻿namespace AvonaleApiVendas.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AvonaleApiVendas.Models
 {
     public class Payment
     {
+        [Key]
+        public int Id { get; set; }
         public decimal Price { get; set; }
 
         public string Status { get; set; }
