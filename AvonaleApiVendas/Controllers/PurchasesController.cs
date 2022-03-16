@@ -1,4 +1,6 @@
 ﻿using AvonaleApiVendas.Data;
+using AvonaleApiVendas.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AvonaleApiVendas.Controllers
 {
@@ -11,6 +13,10 @@ namespace AvonaleApiVendas.Controllers
             _context = context;
         }
 
-
+        /*[HttpPost]
+        public Task<ActionResult<Purchase>> MakePurchase(Purchase purchase)
+        {
+            (!ModelState.isValid)
+        }*/
     }
 }

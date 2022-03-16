@@ -21,6 +21,6 @@ namespace AvonaleApiVendas.Models
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         [DisplayFormat(DataFormatString = "mm/aaaa")]
-        public DataType DueDate { get; set; }
+        public DateTime DueDate { get; set; }
     }
 }

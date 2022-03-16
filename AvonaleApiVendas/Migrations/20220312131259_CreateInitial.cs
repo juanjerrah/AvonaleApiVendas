@@ -18,7 +18,7 @@ namespace AvonaleApiVendas.Migrations
                     CardHolder = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     VerifyCode = table.Column<int>(type: "int", maxLength: 3, nullable: false),
                     CardFlag = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DueDate = table.Column<int>(type: "int", nullable: false)
+                    DueDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
