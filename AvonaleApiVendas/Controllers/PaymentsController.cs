@@ -12,8 +12,8 @@ namespace AvonaleApiVendas.Controllers
         public Payment Pay(Purchase purchase)
         {
             return (purchase.PurchasePrice <= 100) ? 
-                new Payment(purchase.PurchasePrice, "Reprovado!") : 
-                    new Payment(purchase.PurchasePrice, "Aprovado!");
+                new Payment(purchase.PurchasePrice, "Rejeitado") : 
+                    new Payment(purchase.PurchasePrice, "Aprovado");
         }
     }
 }

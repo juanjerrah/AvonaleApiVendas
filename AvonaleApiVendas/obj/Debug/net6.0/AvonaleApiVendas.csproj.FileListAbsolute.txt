@@ -6,6 +6,13 @@ C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\AvonaleApiVenda
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\AvonaleApiVendas.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\AvonaleApiVendas.pdb
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Humanizer.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.Razor.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\System.Web.WebPages.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -20,7 +27,10 @@ C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.Ident
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\C#\Codigos\AvonaleApiVendas\AvonaleApiVendas\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

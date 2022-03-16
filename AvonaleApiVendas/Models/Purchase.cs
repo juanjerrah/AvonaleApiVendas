@@ -17,32 +17,26 @@ namespace AvonaleApiVendas.Models
 
         public decimal PurchasePrice { get; set; }
 
-        [MinLength(1, ErrorMessage = "Precisa comprar no mínimo 1 unidade!")]
+        [Required]
 
         public int QuatityPurchased { get; set; }
 
         public bool Buy(Product product)
         {
-
-            if (QuatityPurchased <= product.QuantityStock)
+            if(QuatityPurchased <= product.QuantityStock)
             {
                 //Preço de compra
                 PurchasePrice = QuatityPurchased * product.ProductPrice;
                 //Remove qtd do estoque
                 product.QuantityStock -= QuatityPurchased;
-                //Define a Horae data da ultima venda
+                //Define a Hora e data da ultima venda
                 product.LastSaleTime = System.DateTime.Now;
                 //Define o valor atual como o da ultima venda
                 product.LastSalePrice = PurchasePrice;
 
                 return true;
-
             }
-            else
-            {
-                return false;
-            }
-
+            return false;
         }
     }
 }

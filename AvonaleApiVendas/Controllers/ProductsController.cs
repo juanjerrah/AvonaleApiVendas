@@ -1,6 +1,5 @@
 ﻿using AvonaleApiVendas.Data;
 using AvonaleApiVendas.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -57,7 +56,7 @@ namespace AvonaleApiVendas.Controllers
             var products = await _context.Product.FindAsync(product.Id);
             if(products == null)
             {
-                return BadRequest("Produtonão encontrado!");
+                return BadRequest("Produto não encontrado!");
             }
 
             products.ProductName = product.ProductName;

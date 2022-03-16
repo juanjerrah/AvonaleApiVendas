@@ -7,6 +7,7 @@ namespace AvonaleApiVendas.Models
         [Key]
         [MaxLength(16, ErrorMessage = "Precisa ter 16 caracteres")]
         [MinLength(16, ErrorMessage = "Precisa ter 16 caracteres")]
+        [RegularExpression("^[0-9]{16}$)", ErrorMessage = "Número de cartão inválido!")]
         public long CardNumber { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
